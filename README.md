@@ -33,3 +33,4 @@ No resources.
 | Name | Description |
 |------|-------------|
 | resourceNames | n/a |
+| tags | n/a |
