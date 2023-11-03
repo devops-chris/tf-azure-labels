@@ -1,0 +1,14 @@
+formatter: markdown
+header-from: header.md
+
+sections:
+  hide:
+    - requirements
+
+settings:
+  anchor: false
+  color: false
+  escape: true
+  indent: 4
+  required: true
+  sensitive: true
