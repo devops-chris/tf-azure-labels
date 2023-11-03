@@ -98,9 +98,9 @@ variable "resource_types" {
       max_length = 80
       format     = "%s-%s-%s-%s-%s-%s"
     }
-    "azurerm_container_apps_environment" = {
+    "azurerm_container_app_environment" = {
       short_name = "cae"
-      max_length = 63
+      max_length = 60
       format     = "%s-%s-%s-%s-%s-%s"
     }
     "azurerm_container_app" = {
