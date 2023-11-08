@@ -83,6 +83,11 @@ variable "resource_types" {
     format     = string
   }))
   default = {
+    "azurerm_key_vault" = {
+      short_name = "kv"
+      max_length = 127
+      format     = "%s-%s-%s-%s-%s-%s"
+    }
     "azurerm_resource_group" = {
       short_name = "rg"
       max_length = 90
