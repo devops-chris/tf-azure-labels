@@ -143,6 +143,11 @@ variable "resource_types" {
       max_length = 63
       format     = "%s-%s-%s-%s-%s-%s"
     }
+    "azurerm_postgresql_flexible_server" = {
+      short_name = "psql"
+      max_length = 63
+      format     = "%s-%s-%s-%s-%s-%s"
+    }
     "azurerm_private_endpoint" = {
       short_name = "pe"
       max_length = 80
